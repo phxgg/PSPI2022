@@ -1,0 +1,146 @@
+.disabled {
+  cursor: not-allowed;
+}
+
+img:hover {
+  transition: .5s ease;
+  opacity: 0.8;
+}
+
+.mydivider-center {
+  width: 25%;
+  margin: 10px auto;
+}
+
+.mydivider {
+  width: 25%;
+  margin: 10px;
+}
+
+/* More button colors */
+
+.btn-purple {
+  color: #fff;
+  background-color: #59359a;
+}
+
+.btn-outline-purple {
+  color: #59359a;
+  background-color: #fff;
+  border-color: #59359a;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color:#432874;
+  transition: 0.3s;
+}
+
+.btn-outline-purple:hover {
+  color: #fff;
+  background-color:#432874;
+  transition: 0.3s;
+}
+
+.bg-purple {
+  background-color: #432874;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: var(--bs-orange);
+}
+
+.btn-orange:hover {
+  color: #fff;
+  background-color: #984c0c;
+  transition: 0.3s;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: var(--bs-pink);
+}
+
+.btn-pink:hover {
+  color: #fff;
+  background-color: #801f4f;
+  transition: 0.3s;
+}
+
+.text-deep-purple {
+  /* color: #432874; */
+  color: #59359a;
+}
+
+/* Book a table */
+
+#book-a-table {
+  background-color: #FAFAFA;
+  padding: 25px 0px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  /* float: left; */
+  width: 100%;
+}
+
+.book-a-table p {
+  color: #9a9a9a;
+}
+
+.book-a-table textarea {
+  min-height: 200px;
+  max-width: 100%;
+}
+
+/* Search bar */
+
+.search-bar .form {
+  position: relative;
+}
+
+.search-bar .form .bi-search {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.search-bar .form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.search-bar .left-pan {
+  padding-left: 7px;
+}
+
+.search-bar .left-pan i {
+  padding-left: 10px;
+}
+
+.search-bar .form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+/* .search-bar .form-input:focus {
+  box-shadow: none;
+  border: none;
+} */
+
+.pointer {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 10px solid transparent;
+}
+
+.pointer-top {
+  border: solid 10px transparent;
+  border-bottom-color: #ccc;
+}
